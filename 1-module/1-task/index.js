@@ -1,10 +1,9 @@
 function factorial(n) {
-  let i = 0;
+    return n ? n * factorial(n - 1) : 1;
+  
+  alert(factorial(0));
+  alert(factorial(1));
+  alert(factorial(3));
+  alert(factorial(5));
 
-for (i = 0; i < 3; i++) 
-  alert(i); 
-
-
-alert(i)
-
-}
+};
